@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1000px;
+    margin: 10px auto;
+}
+.page {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*Фіксированя*/
+    /* width: 1000px; */
+    /**/
+    /*Гумова*/
+    width: 100%;
+    /**/
+}
+tr {
+    background-color: red;
+}
+.header td {
+    height: 200px;
+    background-color: blue;
+}
+.content td:first-child {
+    width: 20%;
+    background-color: yellow;
+    height: 500px;
+}
+.content td:last-child {
+    width: 20%;
+    background-color: yellow;
+}
+.footer td {
+    height: 200px;
+    background-color: blue;
+}
